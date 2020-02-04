@@ -1,50 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <title>About Me</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    </head>
-    <body>
-        <!-- Navbar with Header-->
-         <div class="row">
-           <h1 class="font-weight-bold text-center col-sm-3 mb-0" style="background-color: black;">Eric Vasquez</h1>
-             <ul class="nav justify-content-center col-sm-9 justify-content-sm-end align-items-sm-center " style="background-color: greenyellow;">
-               <li class="nav-item">
-                 <a class="nav-link" href="index.html">About</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="portfolio.html">Portfolio</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="contact.html">Contact</a>
-               </li> 
-           </ul>
-       </div>
-    <div class="card m-4">
-        <div class="card-body m-2">
-          <h4 class="card-title mt-3 mb-4">About Me</h4>
-          <hr>
-            <img src="./images/online-reputation-management.jpg" class="card-img w-50 pr-2 pt-2 float-sm-left" alt="...">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet odio nec nunc bibendum scelerisque. Proin libero turpis, blandit sit amet lorem eu, porttitor molestie sapien. Mauris eu lacus imperdiet, venenatis orci id, facilisis mauris. Donec lacinia dapibus magna, non consectetur diam condimentum eget. Nam ac risus a tellus dignissim facilisis. Praesent vitae consequat libero, eu auctor urna. Duis nisl nisl, hendrerit non dictum nec, finibus vitae nulla. Sed bibendum porta risus, at facilisis odio condimentum ut. Nulla neque nunc, efficitur sit amet cursus et, consequat id lorem. Nulla facilisi. Sed porttitor sagittis ipsum, et posuere neque vulputate eu. Fusce non tempor nisl, at varius magna.
-            </p>
-            <br>
-            <p class="card-text">Praesent sodales id nunc sit amet tincidunt. Suspendisse consectetur pretium lacinia. Maecenas augue purus, tincidunt vel nunc a, ullamcorper commodo justo. Integer placerat lacus sed lobortis fermentum. Suspendisse potenti. Quisque faucibus consequat luctus. Etiam vel erat velit. Mauris ac mollis dui. Sed nulla diam, maximus non tincidunt id, placerat id tortor.Praesent sodales id nunc sit amet tincidunt. Suspendisse consectetur pretium lacinia. Maecenas augue purus, tincidunt vel nunc a, ullamcorper commodo justo. Integer placerat lacus sed lobortis fermentum. Suspendisse potenti. Quisque faucibus consequat luctus. Etiam vel erat velit. Mauris ac mollis dui. Sed nulla diam, maximus non tincidunt id, placerat id tortor.
-            </p>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Title showing in browser's tab -->
+  <title>About Me</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<!--background color for the entire page  -->
+<body style="background-color:lightslategray">
+  <!-- Sets initial header and navbar as 2 inline equal rows for xs and sm screens-->
+  <div class="row row-cols-1 row-cols-sm-2 mx-0">
+    <!--The header and navbar are changed to different column lengths for md, lg and above to balance the ratio  -->
+    <h1 class="font-weight-bold text-center col-md-5 col-lg-4 mb-0" style="background-color: #08421e; color: aliceblue;">Eric Vasquez</h1>
+    <ul class="nav justify-content-center col-md-7 col-lg-8 justify-content-sm-end" style="background-color: aliceblue;">
+      <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> 
+    </ul>
+  </div>
+  <!-- Container that hold main content with margin set to 4 -->
+  <div class="m-4">
+    <!-- Card is set to 2/3 the width at the xl screen breakpoint -->
+    <div class="card px-0 mx-0 col-xl-8" style="background-color: aliceblue;">
+      <div class="card-body">
+        <h3 class="card-title my-3" style="color: #08421e;">About Me</h3>
+        <hr>
+        <!-- img floats left and changes width to 1/2 at sm breakpoint-->
+        <img src="https://via.placeholder.com/150" class="card-img col-sm-6 p-0 pr-sm-2 pt-sm-2 float-sm-left" alt="placeholder">
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet odio nec nunc bibendum scelerisque. Proin libero turpis, blandit sit amet lorem eu, porttitor molestie sapien. Mauris eu lacus imperdiet, venenatis orci id, facilisis mauris. Donec lacinia dapibus magna, non consectetur diam condimentum eget. Nam ac risus a tellus dignissim facilisis. Praesent vitae consequat libero, eu auctor urna. Duis nisl nisl, hendrerit non dictum nec, finibus vitae nulla. Sed bibendum porta risus, at facilisis odio condimentum ut. Nulla neque nunc, efficitur sit amet cursus et, consequat id lorem. Nulla facilisi. Sed porttitor sagittis ipsum, et posuere neque vulputate eu. Fusce non tempor nisl, at varius magna.
+        </p>
+        <br>
+        <p class="card-text">Praesent sodales id nunc sit amet tincidunt. Suspendisse consectetur pretium lacinia. Maecenas augue purus, tincidunt vel nunc a, ullamcorper commodo justo. Integer placerat lacus sed lobortis fermentum. Suspendisse potenti. Quisque faucibus consequat luctus. Etiam vel erat velit. Mauris ac mollis dui. Sed nulla diam, maximus non tincidunt id, placerat id tortor.Praesent sodales id nunc sit amet tincidunt. Suspendisse consectetur pretium lacinia. Maecenas augue purus, tincidunt vel nunc a, ullamcorper commodo justo. Integer placerat lacus sed lobortis fermentum. Suspendisse potenti. Quisque faucibus consequat luctus. Etiam vel erat velit. Mauris ac mollis dui. Sed nulla diam, maximus non tincidunt id, placerat id tortor.
+        </p>
+      </div>
     </div>
-<!-- Footer -->
-<footer class="page-footer font-small bg-secondary" style="border-top: solid 10px; border-top-color: blue; margin-top: 500px;">
-    <!-- Copyright -->
+  </div>
+  <!-- Footer with copyright-->
+  <footer class="page-footer font-small bg-secondary" style="border-top: solid 20px; border-top-color: #08421e; margin-top: 500px;">
     <div class="footer-copyright text-center py-3">© Copyright</div>
-</footer>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
