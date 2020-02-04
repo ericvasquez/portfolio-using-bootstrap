@@ -1,1 +1,1 @@
-# portfolio-using-bootstrap
+# This is a working outline of my portfolio. At this point, it is just made up using Bootstrap and HTML but I will be adding and improving within the upcoming weeks.
